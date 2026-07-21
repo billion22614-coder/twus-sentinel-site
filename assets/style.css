@@ -46,4 +46,17 @@ article.report hr{border:0;border-top:1px solid #1E3454;margin:22px 0}
 article.report ul{padding-left:22px}
 footer.site{border-top:1px solid #1E3454;margin-top:56px;padding:26px 0 40px;
 color:var(--sub);font-size:.85rem;text-align:center}
-@media (max-width:600px){.hero h1{font-size:1.5rem}}
+.notify{background:var(--navy2);border:1px solid #1E3454;border-radius:12px;
+padding:8px 24px 22px}
+.notify-row{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid #162944}
+.notify-row:last-child{border-bottom:0}
+.notify-row .ico{font-size:1.6rem;flex-shrink:0;width:36px;text-align:center}
+.notify-row .txt b{color:var(--gold-l);font-size:1.02rem}
+.notify-row .txt .when{color:var(--gold);font-size:.85rem;margin-left:8px}
+.notify-row .txt p{color:var(--sub);font-size:.92rem;margin-top:4px}
+.notify-note{color:var(--sub);font-size:.92rem;margin-top:8px;padding:16px 24px;
+background:#0F1E33;border-radius:10px;border-left:3px solid var(--gold)}
+.notify-note b{color:var(--gold-l)}
+.center{text-align:center;margin:26px 0}
+@media (max-width:600px){.hero h1{font-size:1.5rem}
+.notify-row .when{display:block;margin-left:0}}
